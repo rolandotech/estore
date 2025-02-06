@@ -1,0 +1,43 @@
+#home{
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+    .container{
+        .category_list{
+            display: flex;
+            justify-content: center;
+            padding: 10px 0px;
+            .categ-menu{
+                padding: 0px 10px;
+                .navMenu{
+                    font-family: montserrat;
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .all-products{
+            .product-content{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+        }
+        .loadMore{
+            font-family: montserrat;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 500;
+            text-transform: capitalize !important;
+        }
+        .loadMoreHolder{
+            margin-bottom: 20px;
+        }
+    }
+}
